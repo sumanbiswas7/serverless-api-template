@@ -1,10 +1,13 @@
-import serverless from "serverless-http"
-import express, { Request, Response } from "express"
-export const app = express()
+import { startServerAndCreateLambdaHandler } from '@as-integrations/aws-lambda';
+import { ApolloServer } from '@apollo/server';
+import { resolvers } from './graphql/resolvers';
+import { typeDefs } from './graphql/typedefs';
 
-app.get("/", (req: Request, res: Response) => {
-    res.status(200).send({ working: true })
+
+const app = new ApolloServer({
+  typeDefs,
+  resolvers,
 });
 
-export const handler = serverless(app)
+export const handler = startServerAndCreateLambdaHandler(app);
 
