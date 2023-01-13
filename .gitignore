@@ -4,6 +4,5 @@
 .build/
 
 node_modules/
-dist/
 
 .vscode/
