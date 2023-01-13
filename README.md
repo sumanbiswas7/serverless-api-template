@@ -29,7 +29,7 @@ npm run deploy
 
 - [AWS Lambda documentation](https://aws.amazon.com/lambda/)
 - [Node.js documentation](https://nodejs.org/en/docs/)
-- [.Apollo Server](https://www.apollographql.com/docs/)
+- [Apollo Server](https://www.apollographql.com/docs/)
 - [Serverless Framework](https://www.serverless.com/)
 
 ## Contributing
