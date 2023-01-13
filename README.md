@@ -8,13 +8,13 @@ This template is designed to help you quickly set up and deploy a Node Express A
 2. Run npm install to install all dependencies
 3. Run npm run dev to start the development server and watch for real-time changes
 4. Make any necessary changes to the code
-5. Deploy to AWS Lambda using the instructions provided by Amazon
+5. Deploy to AWS Lambda using the instructions provided
 
 ## Dependencies
 
 - Node.js
 - Express
-- AWS SDK for JavaScript
+- Serverless
 - AWS Lambda
 
 ## Deployment
