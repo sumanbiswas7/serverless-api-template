@@ -16,8 +16,8 @@ functions:
       - http: ANY /{proxy+}
       - http: ANY /
 
-  environment:
-    SECRET: ${env:SECRET}
+    environment:
+      SECRET: ${env:SECRET}
 
 plugins:
   - serverless-plugin-typescript
