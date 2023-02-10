@@ -4,6 +4,8 @@ This template is designed to help you quickly set up and deploy a Node Express A
 
 ## Getting Started
 
+The [Serverless](https://www.serverless.com/) Framework is an open-source framework for building and deploying Serverless applications. It provides a unified and convenient way to manage Serverless infrastructure and simplify the deployment process.
+
 1. Clone the repository to your local machine
 2. Run npm install to install all dependencies
 3. Run npm run dev to start the development server and watch for real-time changes
@@ -19,7 +21,7 @@ This template is designed to help you quickly set up and deploy a Node Express A
 
 ## Deployment
 
-To deploy the API to AWS Lambda, you will need to have an AWS IAM account. And `serverless cli` installed and globally configured Once you have these set up, you can use the following command to deploy the API:
+To deploy the API to AWS Lambda, you will need to have an AWS [IAM](https://aws.amazon.com/iam/) account. And `serverless cli` installed and globally configured Once you have these set up, you can use the following command to deploy the API:
 
 ```shell
 npm run deploy
