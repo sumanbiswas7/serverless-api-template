@@ -36,4 +36,10 @@ npm run deploy
 
 ## Contributing
 
-If you find any bugs or have suggestions for improvements, feel free to open an issue or make a pull request.
+The serverless-api-template is open-source, and we welcome contributions from the community. If you have any suggestions, bug reports, or improvements, feel free to contribute to the template by submitting a pull request on the repository.
+
+Your contributions will help to make this template better and more useful for others, and will also help to grow the repository. Whether you're a seasoned developer or just starting out, we encourage you to get involved and make a difference.
+
+If you have any questions or need assistance with your contribution, feel free to reach out. We're always here to help and support you in your efforts.
+
+Thank you for your interest in contributing to the node-express-serverless-api template!
