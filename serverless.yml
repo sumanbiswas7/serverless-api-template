@@ -13,8 +13,9 @@ functions:
   graphql:
     handler: src/server.handler
     events:
-      - http: ANY /{proxy+}
-      - http: ANY /
+      - httpApi:
+          path: /
+          method: "*"
 
     environment:
       SECRET: ${env:SECRET}
